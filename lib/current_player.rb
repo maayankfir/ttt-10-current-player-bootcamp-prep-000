@@ -1,4 +1,4 @@
 def turn_count(board)
-  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-board.each{|board| puts "It's #{board} turn!"}
+  players = ["X", "O"]
+board.each{|players| puts "It's #{board} turn!"}
 end
